@@ -3,9 +3,7 @@ use std::fs::{self};
 
 #[derive(Serialize, Deserialize)]
 pub struct Config {
-    pub project_id: String,
-    pub dataset_id: String,
-    pub table_id: String
+    pub dbname: String
 }
 
 impl Config {
