@@ -1,7 +1,5 @@
 use yew::prelude::*;
 
-mod sql;
-
 mod about;
 mod counter;
 mod display;
