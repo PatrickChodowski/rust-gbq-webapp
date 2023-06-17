@@ -15,3 +15,16 @@ pub async fn query(client: &Client, query: &str, project_id: &str) -> Option<Res
         return None;
     }
 }
+
+
+pub fn unpack_result(res: Option<ResultSet>) {
+
+    // let v: 
+
+    // if let Some(_res) = res {
+
+    //     res.rows
+
+    // }    
+
+}
